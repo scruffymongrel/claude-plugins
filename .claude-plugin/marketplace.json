@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "scruffymongrel",
+  "description": "scruffymongrel's Claude Code plugins.",
+  "owner": {
+    "name": "scruffymongrel"
+  },
+  "plugins": [
+    {
+      "name": "domdomdom",
+      "description": "Pipe JS via stdin to evaluate against any HTML page (URL, local file, or inline). Lightweight alternative to Playwright/jsdom for non-layout, non-screenshot tasks. Auto-loaded skill teaches Claude when to use it.",
+      "author": { "name": "scruffymongrel" },
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/scruffymongrel/domdomdom.git"
+      },
+      "homepage": "https://github.com/scruffymongrel/domdomdom"
+    }
+  ]
+}
